@@ -1,0 +1,115 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+aboutus img {
+   
+   transform:scale(0.7);
+}
+
+.nav-bar a {
+    text-decoration: none;
+    display: inline;
+    font-size: 25px;
+    color: black;
+    padding: 0 10px 0 10px;
+  
+}
+    .nav-bar a:hover {
+        background-color: #137587;
+        color: whitesmoke;
+     transform: scale(1.0);
+}
+    
+    hr {
+        width: 300px;
+        margin-right: auto;
+    }
+
+p {
+    font-size: 13px;
+    text-align: justify;
+    margin: 10px 30px 0px 10px;
+}
+.card {
+    height: 30px;
+    width: 270px;
+    margin: 30px 40px 30px 40px;
+    box-shadow: 10px 10px 5px black;
+    transform: scale(0.9);
+}
+    .card:hover {
+        transform: scale(1.0);
+    }
+
+.card img {
+    height: 100px;
+    width: 140px;
+    margin-left: auto;
+    margin-right: auto;
+  
+}
+
+form {
+    margin: 60px 0 40px 40px;
+    padding: 40px;
+    height: 650px;
+    width: 500px;
+    background-color: #dff6fa;
+    box-shadow: 10px 8px 5px lightblue;
+    float: left;
+}
+.contact-us {
+    height: 100%;
+    width: 100%;
+    float: left;
+  background-color:azure;
+}
+#aboutus {
+    height: 100%;
+    width: 100%;
+    background-color: azure;
+    padding-bottom:40px;
+}
+input , textarea{
+    padding-left:20px;
+    margin:10px;
+}
+ul{
+    font-size:15px;
+}
+.card-title{
+ margin:0;
+ padding:0;
+}
+button{
+    padding:10px;
+    width:300px;
+    transform:scale(0.8);
+}
+    button:hover {
+        background-color: lightblue;
+        font-size: 10px;
+        transform: scale(0.9);
+        text-transform:capitalize;
+    }
+#contact img {
+    animation-timing-function: linear;
+    float: right;
+    height: 770px;
+    width: 650px;
+    margin-right: 0;
+    
+}
+h1{
+    text-shadow:4px 6px 5px black;
+}
+@media screen and (min-width: 998px) {
+    html {
+        font-size:55%;
+    }
+    #contact img {
+       display:none;
+    }
+}
